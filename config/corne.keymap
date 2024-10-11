@@ -15,10 +15,10 @@
             label = "LAYER1COMMAND";
             #binding-cells = <2>;
             hold-trigger-key-positions = <40>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
 
-            quick-tap-ms = <150>;
+            quick-tap-ms = <99>;
             flavor = "balanced";
             hold-trigger-on-release;
         };
@@ -30,8 +30,8 @@
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <37>;
-            tapping-term-ms = <300>;
-            quick-tap-ms = <150>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <100>;
             flavor = "balanced";
             hold-trigger-on-release;
         };
