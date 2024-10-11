@@ -16,7 +16,7 @@
             #binding-cells = <2>;
             hold-trigger-key-positions = <40>;
             tapping-term-ms = <300>;
-            bindings = <&tog>, <&kp>;
+            bindings = <&mo>, <&kp>;
 
             quick-tap-ms = <150>;
             flavor = "balanced";
@@ -26,7 +26,7 @@
         layer2option: layer2option {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER2OPTION";
-            bindings = <&tog>, <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <37>;
