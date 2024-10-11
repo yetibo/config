@@ -19,6 +19,8 @@
             bindings = <&tog>, <&kp>;
 
             quick-tap-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-on-release;
         };
 
         layer2option: layer2option {
@@ -30,6 +32,8 @@
             hold-trigger-key-positions = <37>;
             tapping-term-ms = <300>;
             quick-tap-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-on-release;
         };
 
         esc: esc {
@@ -41,6 +45,8 @@
             tapping-term-ms = <300>;
             hold-trigger-key-positions = <1>;
             quick-tap-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-on-release;
         };
     };
 
