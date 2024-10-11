@@ -70,10 +70,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E      &kp R                         &kp T       &kp Y      &kp U                          &kp I         &kp O    &kp P     &none
-&none  &kp A  &kp S  &kp D      &kp F                         &kp G       &kp H      &kp J                          &kp K         &kp L    &kp TAB   &none
-&none  &kp Z  &kp X  &kp C      &kp V                         &kp CAPS    &kp B      &kp N                          &kp M         &kp F13  &kp BSPC  &kp BSPC
-                     &kp LSHFT  &layer2option 2 LEFT_CONTROL  &kp RET     &kp SPACE  &layer1command 1 LEFT_COMMAND  &kp LEFT_ALT
+&none  &kp Q  &kp W  &kp E      &kp R                   &kp T                    &kp Y                  &kp U         &kp I         &kp O    &kp P     &none
+&none  &kp A  &kp S  &kp D      &kp F                   &kp G                    &kp H                  &kp J         &kp K         &kp L    &kp TAB   &none
+&none  &kp Z  &kp X  &kp C      &kp V                   &kp CAPS                 &kp B                  &kp N         &kp M         &kp F13  &kp BSPC  &kp BSPC
+                     &kp LSHFT  &kp C_AL_CONTROL_PANEL  &layer2option 2 ENTER    &layer2option 1 SPACE  &kp LEFT_GUI  &kp LEFT_ALT
             >;
         };
 
