@@ -85,10 +85,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1      &kp N2                &kp N3                &kp N4                        &kp N5        &kp N6     &kp N7                      &kp N8        &kp N9         &kp N0            &none
-&none  &kp TAB     &none                 &kp C_PREVIOUS        &kp C_PP                      &kp C_NEXT    &kp COMMA  &kp UP                      &kp PERIOD    &kp SEMICOLON  &kp SINGLE_QUOTE  &none
-&none  &kp ESCAPE  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_AC_SEARCH               &kp F13       &kp LEFT   &kp DOWN                    &kp RIGHT     &kp QUESTION   &kp F13           &bt BT_SEL 0
-                                         &kp LSHFT             &layer2option 2 LEFT_CONTROL  &kp RET       &kp SPACE  &layer1command 1 RIGHT_GUI  &kp LEFT_ALT
+&none  &kp N1      &kp N2                &kp N3                &kp N4                        &kp N5          &kp N6     &kp N7                      &kp N8        &kp N9         &kp N0            &none
+&none  &kp TAB     &none                 &kp C_PREVIOUS        &kp C_PP                      &kp C_NEXT      &kp COMMA  &kp UP                      &kp PERIOD    &kp SEMICOLON  &kp SINGLE_QUOTE  &none
+&none  &kp ESCAPE  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_UP               &kp C_VOL_DN    &kp LEFT   &kp DOWN                    &kp RIGHT     &kp QUESTION   &kp F13           &bt BT_SEL 0
+                                         &kp LSHFT             &layer2option 2 LEFT_CONTROL  &kp RET         &kp SPACE  &layer1command 1 RIGHT_GUI  &kp LEFT_ALT
             >;
         };
 
