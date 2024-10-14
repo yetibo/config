@@ -64,8 +64,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_tap>,
-                <&kp LEFT_SHIFT &kp LS(LEFT_COMMAND) &kp NUMBER_4>;
+                <&kp LEFT_SHIFT &kp LS(LEFT_COMMAND) &kp NUMBER_4>,
+                <&macro_press>;
 
             label = "SCREENSHOT";
         };
@@ -85,7 +85,7 @@
 &none  &kp Q  &kp W  &kp E             &kp R             &kp T                    &kp Y                  &kp U           &kp I         &kp O    &kp P          &none
 &none  &kp A  &kp S  &kp D             &kp F             &kp G                    &kp H                  &kp J           &kp K         &kp L    &screenshot    &none
 &none  &kp Z  &kp X  &kp C             &kp V             &kp CAPS                 &kp B                  &kp N           &kp M         &kp F13  &kp BACKSPACE  &kp BSPC
-                     &kp LEFT_COMMAND  &kp LEFT_CONTROL  &layer2option 2 ENTER    &layer2option 1 SPACE  &kp LEFT_SHIFT  &kp LEFT_ALT
+                     &kp LEFT_CONTROL  &kp LEFT_COMMAND  &layer2option 2 ENTER    &layer2option 1 SPACE  &kp LEFT_SHIFT  &kp LEFT_ALT
             >;
         };
 
@@ -97,10 +97,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1      &kp N2                &kp N3                &kp N4                        &kp N5          &kp N6     &kp N7                      &kp N8        &kp N9         &kp N0            &none
-&none  &kp TAB     &none                 &kp C_PREVIOUS        &kp C_PP                      &kp C_NEXT      &kp COMMA  &kp UP                      &kp PERIOD    &kp SEMICOLON  &kp SINGLE_QUOTE  &none
-&none  &kp ESCAPE  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_UP               &kp C_VOL_DN    &kp LEFT   &kp DOWN                    &kp RIGHT     &kp QUESTION   &kp F13           &bt BT_SEL 0
-                                         &kp LSHFT             &layer2option 2 LEFT_CONTROL  &kp RET         &kp SPACE  &layer1command 1 RIGHT_GUI  &kp LEFT_ALT
+&none  &kp N1      &kp N2  &kp N3     &kp N4                        &kp N5     &kp N6     &kp N7                      &kp N8        &kp N9         &kp N0            &none
+&none  &kp TAB     &none   &none      &none                         &none      &kp COMMA  &kp UP                      &kp PERIOD    &kp SEMICOLON  &kp SINGLE_QUOTE  &none
+&none  &kp ESCAPE  &none   &none      &none                         &none      &kp LEFT   &kp DOWN                    &kp RIGHT     &kp QUESTION   &kp F13           &bt BT_SEL 0
+                           &kp LSHFT  &layer2option 2 LEFT_CONTROL  &kp RET    &kp SPACE  &layer1command 1 RIGHT_GUI  &kp LEFT_ALT
             >;
         };
 
